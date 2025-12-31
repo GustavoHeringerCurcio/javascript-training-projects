@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number register and analyzer with JS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="head">
+        <section>
+            <div class="container">
+                <h1>Number register and analyzer with JS</h1>
+                <p>Type a number (between 1 and 100) <input type="number" name="num" id="input"> 
+                <input type="button" value="Add" onclick="add()"></p>
+
+                <div>
+                    <select name="list" id="list" size="5"></select>
+                </div>
+                <div>
+                    <input type="button" value="Finish" onclick="finish()">
+                    <div class="txtcss" id="res">
+                        <p>Total numbers registered:</p>
+                        <p>Sum of registered numbers:</p>
+                        <p>Average value:</p>
+                        <p>Highest registered number:</p>
+                        <p>Lowest registered number:</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </header>
+<footer>
+ &copy; <footer>
+  <p>Gustavo Heringer | small JavaScript project inspired by Gustavo Guanabara's course (Curso em Vídeo)</p>
+</footer>
+
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
