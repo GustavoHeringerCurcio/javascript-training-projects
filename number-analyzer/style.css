@@ -1,0 +1,128 @@
+/* colors
+
+white clean - #00796b
+green for buttons - #00796b
+green for :hover - #004d40
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #e0f7fa; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.head section > div {
+    background-color: #ffffff;
+    padding: 30px 60px;   
+    border-radius: 22px;  
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15); 
+    width: 500px;         
+}
+
+.head h1 {
+    text-align: center;
+    font-size: 30px;       
+    margin-bottom: 30px;   
+    color: #00796b;
+}
+
+.head p {
+    font-size: 1.3rem;     
+    margin-bottom: 20px;   
+    color: #333;
+}
+
+input[type="number"] {
+    display: block;
+    margin: 0 auto 8px auto; 
+    width: 90px;             
+    padding: 8px 12px;       
+    border-radius: 8px;      
+    border: 1px solid #b0bec5;
+    outline: none;
+    transition: border 0.3s;
+}
+
+input[type="number"]:focus {
+    border-color: #00796b;
+}
+
+.container {
+    text-align: center; 
+}
+
+input[type="button"] {
+    padding: 8px 18px;       
+    border-radius: 8px;      
+    border: none;
+    background-color: #00796b;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block;
+    margin: 0 auto 15px auto;
+
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="button"]:hover {
+    background-color: #004d40;
+}
+
+select {
+    width: 100%;
+    margin-bottom: 20px;     
+    padding: 8px;            
+    border-radius: 12px;     
+    border: 1px solid #b0bec5;
+    font-size: 1.3rem;       
+}
+
+div input[type="button"] {
+    display: block;
+    margin-bottom: 20px;     
+}
+
+.txtcss {
+    background-color: #f1f8e9;
+    padding: 22px 30px;      
+    border-radius: 15px;     
+    border: 1px solid #c5e1a5;
+}
+
+.txtcss p {
+    margin-bottom: 12px;     
+    font-weight: 500;
+    color: #33691e;
+    font-size: 1.3rem;       
+}
+
+#res p.redcss {
+    color: rgb(15, 170, 36);
+    font-weight: bold;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.178);
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #00796b;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}

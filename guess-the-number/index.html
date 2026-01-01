@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="style.css">
+        <!-- HTML in your document's head -->
+    <link rel="preconnect" href="https://rsms.me/">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+</head>
+<body>
+<section class="app">
+    <div class="card">
+
+    <!-- CHEAT -->
+    <div class="cheat-header">
+        <p class="cheat-text" id="text">Enable Cheat Button</p>
+        <p id="cheat" class="cheat"></p>
+        <label class="switch">
+            <input id="myCheck" type="checkbox" onclick="habilityCheat()">
+            <span class="slider"></span>
+        </label>
+    </div>
+
+    <!-- TÍTULO -->
+    <h1 class="title" id="max-quantity">
+        Guess the secret number<br>
+        between 1 and 100
+    </h1>
+
+    <!-- ATTEMPTS -->
+    <div id="attempts" class="info-attempts">
+         You already have 7 attempts!
+    </div>
+
+    <!-- INPUT -->
+    <div class="input-group">
+        <input class="input" type="number" id="input" placeholder="Enter your guess">
+        <button class="verify" onclick="verify()">Verify</button>
+    </div>
+
+    <!-- HINT -->
+    <div id="hint" class="info-hint">
+        💡 <strong>Hint:</strong>
+    </div>
+
+    <!-- DIFICULDADE -->
+    <div class="difficulty">
+        <button class="difficulty-btn normal" onclick="normalBtn()">Normal</button>
+        <button class="difficulty-btn hardcore" onclick="hardcoreBtn()">Hardcore</button>
+    </div>
+
+</div>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
