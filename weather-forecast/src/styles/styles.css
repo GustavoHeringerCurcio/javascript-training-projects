@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+* {
+    font-family: "Google Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background:linear-gradient(#3b82f6,#4a7dff);
+}
+
+#container {
+    background-color: #f0f8ff;
+    padding: 18px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(0,0,0,0.1);
+}
+
+#search {
+    border: 1px solid #bdbdbd;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 10px;
+    padding: 4px 12px;
+}
+
+#search input {
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    width: 100%;
+}
+
+#search input:focus-visible{
+    outline: none;
+}
+
+#search button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#weather {
+    display: none;
+    margin-top: 20px;
+}
+
+#weather.show {
+    display: block;
+}
+
+#weather #title {
+    text-align: center;
+    margin-bottom: 5px;
+    color: #372f3f;
+}
+
+#temp {
+    background:linear-gradient(90deg, #5a7cdc, #606dde);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#temp-img {
+    filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.3))
+}
+
+#temp-value {
+    font-weight: bolder;
+    font-size: 50px;
+    line-height: 55px;
+}
+
+#temp-description {
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+#other-infos {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* pesquisar mais sobre esse grid-template */
+    gap: 12px;
+    margin-top: 30px;
+}
+
+#other-infos .info {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 4px 10px;
+    box-shadow: 0px 0px 5px rgb(0,0,0,0.2);
+    border-radius: 8px;
+    background-color: #fff;
+    gap: 10px;
+}
+
+#other-infos .info h2 {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#other-infos .info i {
+    font-size: 20px;
+    width: 20%;
+    text-align: center;
+}
+
+#temp-max-icon {
+    color: #7f1d1d;
+}
+
+#temp-min-icon {
+    color: #0284c7;
+}
+
+#humidity-icon {
+    color: #0ea5e9;
+}
+
+#wind-icon {
+    color: #7c3aed;
+}
+
+#alert {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#alert img {
+    width: 200px;
+    margin-top: 20px;
+}
