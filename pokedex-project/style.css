@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:white;
+    font-family: 'Lato', sans-serif;
+}
+
+.pokedex {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: bolder;
+}
+
+body {
+    background: linear-gradient(to right, #000000, #0a0408, #0e0913, #0c0f1b, #031521);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1.pokedex {
+    letter-spacing: 5px;
+    font-size: 40px;
+}
+
+.pokeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;    
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.pokemon:hover {
+    transform: translateY(-5px);
+}
+
+.pokemon {
+
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    
+    width: 150px; /* ou outra medida */
+    max-width: 150px;
+    text-align: center; /* centraliza o conteúdo */
+    overflow: hidden; /* corta o excesso */
+    flex-shrink: 0;
+}
+
+
+.imgContainer {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.166);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    filter: drop-shadow(0 0 5px rgba(0,0,0,0.8));
+    
+}
+
+.imgContainer img {
+
+    
+    filter: drop-shadow(0 0 5px rgb(0, 0, 0, 0.8));
+}
+
+.imgContainer img {
+    max-width: 90%;
+}
+
+.info {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+
+/* temporary */ 
+.type {
+    color: #AC635B;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+.type span {
+    color: #AC635B;
+}
+/* temporary */ 
+
+
+.number {
+    background-color: rgba(0, 0, 0, 0.466);
+    padding: 2px 13px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    color: #AC635B;
+}
+
+.name {
+     margin: 10px 0 5px;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    font-size: 14px;
+    white-space: nowrap;       /* impede quebra de linha */
+    overflow: hidden;          /* corta o texto que ultrapassa */
+    text-overflow: ellipsis;   /* adiciona "..." no final */
+    width: 100%;
+}
+
+.buttonContainer {
+    display: flex;
+    align-items: center;
+    margin: 30px 00px 30px 0px;
+}
+
+
+
+.load-button  {background-image: linear-gradient(to right, #011624 0%, #08050f  51%, #0a174e  100%)}
+.load-button  {
+margin: 10px;
+padding: 15px 45px;
+text-align: center;
+text-transform: uppercase;
+transition: 0.5s;
+background-size: 200% auto;
+color: rgb(255, 255, 255 );            
+box-shadow: 5px 5px 20px #72727248;
+border-radius: 10px;
+display: block;
+}
+
+.load-button:hover {
+background-position: right center; /* change the direction of the change here */
+color: #58c0e9;
+text-decoration: none;
+color: #ffffff83;
+}
+         
