@@ -1,19 +1,54 @@
-# JavaScript Training Projects
+# 📌 JavaScript Training Projects
 
-This repository contains JavaScript practice projects, created to train programming logic, DOM manipulation, and front-end concepts. Each project is small but demonstrates different JavaScript skills.
+![JavaScript](https://img.shields.io/badge/Language-JavaScript-yellow?style=for-the-badge&logo=javascript)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3)
+![Vercel](https://img.shields.io/badge/Live-Demo-000000?style=for-the-badge&logo=vercel)
+
+> A curated collection of interactive JavaScript projects for **practice, learning, and experimentation**. Each project is organized in elegant cards with images, descriptions, and links to live demos and source code.  
 
 ---
 
-## :rocket: Projects
+## ✨ Key Features
 
-### 01. Simple JS Calculator
-- :point_right: Access the project page: (https://gustavoheringercurcio.github.io/javascript-training-projects/simple-calculator/index.html)
-- **Description:** A functional calculator built with JavaScript that performs basic operations like addition, subtraction, multiplication, and division. Great for practicing logic and DOM manipulation.  
-- **Technologies:** HTML, CSS, JavaScript  
-[![My Skills](https://skillicons.dev/icons?i=js,html,css)](https://skillicons.dev)
+- 🖥️ Modern layout using HTML and CSS  
+- 🎨 Project cards with images, descriptions, and buttons  
+- ⚡ Vanilla JavaScript for interactivity and DOM manipulation  
+- 🔗 Links to Live Demo and GitHub repository for each project  
+- 📚 Projects focused on JS concepts, Fetch API, and programming logic
 
-### 01. Number Analyzer 
-- :point_right: Access the project page: (https://gustavoheringercurcio.github.io/javascript-training-projects/number-analyzer/index.html)
-- **Description:** Receives numbers from the user and generates information like total count, sum, average, and more.  
-- **Technologies:** HTML, CSS, JavaScript  
-[![My Skills](https://skillicons.dev/icons?i=js,html,css)](https://skillicons.dev)
+---
+
+## 💻 Projects Included
+
+| Project | Description | Technologies |
+|---------|-------------|--------------|
+| Card-Jitsu Mini Game | Mini game inspired by Club Penguin. Features dynamic battles, element-based logic, and DOM manipulation. | HTML, CSS, JS |
+| Pokedex using Fetch API | Interactive Pokedex fetching Pokémon data from the API and displaying it in cards. | HTML, CSS, JS, Fetch API |
+| Weather Forecast using Fetch API | Weather app for any city with real-time updates using an API. | HTML, CSS, JS, Fetch API |
+| Guess The Numbers | Number guessing game with real-time feedback. | HTML, CSS, JS |
+| Digital Watch | Real-time digital clock demonstrating date, time, and DOM updates. | HTML, CSS, JS |
+| Simple JS Calculator | Basic calculator supporting fundamental arithmetic operations and interactive input. | HTML, CSS, JS |
+
+> And more projects are being added constantly! 🚀
+
+---
+
+## 🎯 Purpose
+
+This repository serves as a **personal hub to organize and store JavaScript practice projects**, keeping them structured, accessible, and ready for experimentation.  
+
+---
+
+## 🔗 Useful Links
+
+- 🌐 **Live Demo:** [Vercel](https://javascript-training-projects.vercel.app/)  
+- 🖥️ **GitHub Repository:** [Your GitHub](https://github.com/GustavoHeringerCurcio?tab=repositories)  
+
+---
+
+## ⚡ Future Plans
+
+- Add more interactive JS projects  
+- Experiment with advanced JS concepts like async/await, APIs, and DOM games  
+- Keep improving layout, styling, and responsiveness  
